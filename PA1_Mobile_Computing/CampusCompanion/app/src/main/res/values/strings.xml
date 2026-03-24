@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Campus Companion</string>
+    <string name="app_logo_desc">Campus Companion Logo</string>
+
+    <!-- HomeActivity -->
+    <string name="home_subtitle">Your personal campus task manager</string>
+    <string name="hint_enter_name">Enter your name</string>
+    <string name="btn_view_tasks">View My Tasks</string>
+    <string name="error_name_empty">Please enter your name to continue</string>
+
+    <!-- TaskListActivity -->
+    <string name="welcome_message">Welcome, %1$s! 👋</string>
+    <string name="section_your_tasks">Your Tasks</string>
+    <string name="default_user">Student</string>
+
+    <!-- TaskDetailActivity -->
+    <string name="label_description">Description</string>
+    <string name="priority_label">Priority: %1$s</string>
+    <string name="btn_mark_complete">Mark as Complete</string>
+    <string name="btn_completed">✓ Completed</string>
+    <string name="dialog_confirm_title">Confirm Completion</string>
+    <string name="dialog_confirm_message">Mark \"%1$s\" as complete?</string>
+    <string name="dialog_yes">Yes, Complete</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="toast_task_complete">\"%1$s\" marked as complete!</string>
+    <string name="error_task_not_found">Task not found.</string>
+</resources>
