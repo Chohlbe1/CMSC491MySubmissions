@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Screen & card backgrounds ────────────────────────────────────────── -->
+    <color name="bg_screen">#0D1B2A</color>
+    <color name="bg_card">#1B2A3B</color>
+
+    <!-- ── Text ─────────────────────────────────────────────────────────────── -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#90A4AE</color>
+    <color name="text_hint">#546E7A</color>
+
+    <!-- ── Accent colours ───────────────────────────────────────────────────── -->
+    <color name="accent_blue">#4FC3F7</color>
+    <color name="accent_teal">#26C6DA</color>
+    <color name="accent_orange">#FFAB40</color>
+    <color name="accent_green">#66BB6A</color>
+
+    <!-- ── Axis colours ──────────────────────────────────────────────────────── -->
+    <color name="axis_x">#EF5350</color>
+    <color name="axis_y">#66BB6A</color>
+    <color name="axis_z">#42A5F5</color>
+
+    <!-- ── Divider ───────────────────────────────────────────────────────────── -->
+    <color name="divider">#1E3A4A</color>
+
+    <!-- ── Value pill (inner card for orientation values) ───────────────────── -->
+    <color name="bg_pill">#0D2337</color>
+
+    <!-- ── Material Switch colours ──────────────────────────────────────────── -->
+    <!-- Used in color state lists defined below; reference them directly here   -->
+    <color name="switch_thumb_on">#4FC3F7</color>
+    <color name="switch_thumb_off">#546E7A</color>
+    <color name="switch_track_on">#1E4A66</color>
+    <color name="switch_track_off">#1A2A35</color>
+
+    <!-- Primary/secondary for AppCompat theme requirements -->
+    <color name="colorPrimary">#0D1B2A</color>
+    <color name="colorPrimaryVariant">#1B2A3B</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#4FC3F7</color>
+    <color name="colorSecondaryVariant">#0288D1</color>
+    <color name="colorOnSecondary">#000000</color>
+
+</resources>

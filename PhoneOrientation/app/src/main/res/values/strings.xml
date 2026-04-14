@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App identity -->
+    <string name="app_name">PhoneOrientation</string>
+    <string name="app_title">Phone Orientation</string>
+    <string name="app_subtitle">Motion Sensor Estimation</string>
+
+    <!-- Switch -->
+    <string name="switch_label">LIVE</string>
+
+    <!-- Section headers -->
+    <string name="section_accel">Accelerometer</string>
+    <string name="section_gyro">Gyroscope</string>
+    <string name="section_orientation">Orientation Estimate</string>
+    <string name="section_arrow">Tilt Direction</string>
+
+    <!-- Axis labels -->
+    <string name="axis_x">X</string>
+    <string name="axis_y">Y</string>
+    <string name="axis_z">Z</string>
+
+    <!-- Units -->
+    <string name="unit_ms2">m/s²</string>
+    <string name="unit_rads">rad/s</string>
+
+    <!-- Orientation labels -->
+    <string name="label_pitch">Pitch</string>
+    <string name="label_roll">Roll</string>
+    <string name="label_yaw">Yaw</string>
+
+    <!-- Orientation sub-hints -->
+    <string name="pitch_hint">fwd / back tilt</string>
+    <string name="roll_hint">left / right tilt</string>
+    <string name="yaw_hint">rotation (gyro)</string>
+
+    <!-- Arrow caption -->
+    <string name="arrow_caption">Arrow points in the direction of tilt.\nTurn on the switch to begin.</string>
+
+    <!-- Sensor status -->
+    <string name="sensor_available">Available</string>
+    <string name="sensor_unavailable">Unavailable</string>
+
+    <!-- Idle placeholder shown when the switch is off -->
+    <string name="value_idle">–</string>
+
+    <!-- Status banner -->
+    <string name="banner_off_message">⬆  Toggle the switch above to begin reading sensors</string>
+
+    <!-- Reset yaw button -->
+    <string name="btn_reset_yaw">Reset Yaw to Zero</string>
+
+</resources>
