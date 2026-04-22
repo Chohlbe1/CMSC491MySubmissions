@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Step 01: Add UI Fields – two TextViews for lat/lng + a Button -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/background">
+
+    <!-- App title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/navy"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_subtitle"
+        android:textSize="14sp"
+        android:textColor="@color/grey"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Latitude label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_latitude"
+        android:textSize="12sp"
+        android:textColor="@color/grey"
+        android:textAllCaps="true"
+        android:letterSpacing="0.12"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Step 01: Latitude TextView -->
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder"
+        android:textSize="20sp"
+        android:textColor="@color/navy"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"
+        android:elevation="2dp" />
+
+    <!-- Longitude label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_longitude"
+        android:textSize="12sp"
+        android:textColor="@color/grey"
+        android:textAllCaps="true"
+        android:letterSpacing="0.12"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Step 01: Longitude TextView -->
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder"
+        android:textSize="20sp"
+        android:textColor="@color/navy"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="48dp"
+        android:elevation="2dp" />
+
+    <!-- Step 01: Button to trigger location request -->
+    <Button
+        android:id="@+id/btnGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/btn_get_location"
+        android:textSize="16sp"
+        android:backgroundTint="@color/navy"
+        android:textColor="@color/white" />
+
+</LinearLayout>

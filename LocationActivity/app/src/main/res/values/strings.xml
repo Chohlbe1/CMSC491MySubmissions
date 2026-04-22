@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocationApp</string>
+    <string name="app_title">📍 My Location</string>
+    <string name="app_subtitle">Tap the button to fetch your coordinates</string>
+    <string name="label_latitude">Latitude</string>
+    <string name="label_longitude">Longitude</string>
+    <string name="placeholder">—</string>
+    <string name="btn_get_location">Get My Location</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="location_unavailable_msg">Location unavailable — ensure GPS is enabled and try outdoors.</string>
+    <string name="location_error_msg">Failed to retrieve location. Please try again.</string>
+    <string name="permission_denied_msg">Location access is required to display coordinates.</string>
+</resources>
