@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Location Logger</string>
+    <string name="status_active">Tracking Active</string>
+    <string name="status_stopped">Tracking Stopped</string>
+    <string name="permission_denied">Permission Denied – cannot track location</string>
+    <string name="no_location">No location recorded yet.</string>
+    <string name="no_entries">No entries recorded yet.</string>
+</resources>
